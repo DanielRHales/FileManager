@@ -18,10 +18,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="FileManager" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="FileManager" target="1.5" />
+      <module name="FileManager" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
