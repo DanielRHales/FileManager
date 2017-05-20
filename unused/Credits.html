@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Credits</title>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Program Credits">
+    <meta name="author" content="Daniel Hales">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<div onclick="toggleDeveloper()" style="color: #82198c; text-align: center;">Developer Credits</div>
+<div style="text-align: center;">
+    <ul id="developerList" style="display: none;">
+        <li>
+            <div>
+                <a href="http://ArteroPk.com/">
+                    Daniel
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div onclick="toggleGraphics()" style="color: #82198c; text-align: center;">Graphic Credits</div>
+<div style="text-align: center;">
+    <ul id="graphicsList" style="display: none;">
+        <li>
+            <div>
+
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div onclick="toggleLibraries()" style="color: #82198c; text-align: center;">Library Credits</div>
+<div style="text-align: center;">
+    <ul id="libraryList" style="display: none;">
+        <li>
+            <div>
+
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+
+<script language="JavaScript">
+
+    toggleDeveloper = function() {
+        toggle("developerList");
+    };
+
+    toggleGraphics = function() {
+        toggle("graphicsList");
+    };
+
+    toggleLibraries = function() {
+        toggle("libraryList");
+    };
+
+    toggle = function (element) {
+        var x = document.getElementById(element);
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    };
+
+</script>
+</html>
