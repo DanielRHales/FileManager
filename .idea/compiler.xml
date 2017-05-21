@@ -21,7 +21,7 @@
         <module name="FileManager" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.6">
       <module name="FileManager" target="1.6" />
     </bytecodeTargetLevel>
   </component>

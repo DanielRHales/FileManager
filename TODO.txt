@@ -1,0 +1,73 @@
+----[Daniel Notes]--------
+
+Many more TODO objects
+just a quick list to get some things jotted down before they were forgotten
+--------------------------
+
+--[Frame]
+    [Priorities]
+        [Extreme]
+            * Finish designing Frame & respective components & their layouts
+            * Directory & File rendering
+
+            * Create Storage panel & features
+                (Lock, Unlock, Encrypt{Compression} import {if unlocked}export{if unlocked})
+        [Extreme]
+
+        [High]
+            * Add functions to the frame & its components
+
+            * Program Configurations
+        [High]
+
+        [Medium]
+            ?* Remove the Children List & Opt for 1 list with a expand Option
+                (Either Render a new Panel that shows another list or display the expanded directory)
+
+            * Create Minimized, Fixed & FullScreen mode
+
+            * USB Options
+        [Medium]
+
+        [Low]
+            ?* Switch black Images to White & Use Raven theme & Skin
+        [Low]
+
+        [Very Low]
+        [Very Low]
+    [Priorities]
+--[Frame]
+
+----[End Daniel Notes]----
+
+
+----[Alyson Notes]--------
+    * Needs to have multiple ways of searching: file number, name, phrase, date.
+
+    * Visually smooth: no harsh lines, blending, something that stands out.
+
+    *Needs to be user friendly: the easier to use, more people will use it.
+----[End Alyson Notes]----
+
+----[Priorities Template]----
+* = TODO object
+?* = Possible TODO object
+
+    [Priorities]
+        [Extreme]
+        [Extreme]
+
+        [High]
+        [High]
+
+        [Medium]
+        [Medium]
+
+        [Low]
+        [Low]
+
+        [Very Low]
+        [Very Low]
+    [Priorities]
+
+----[Priorities Template]----
